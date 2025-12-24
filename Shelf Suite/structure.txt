@@ -1,0 +1,18 @@
+ShelfSuite/
+│
+├── @Resources/           <-- Here are your shared icons and images
+│   └── Icons/
+│       ├── folder.png
+│       ├── chrome.png
+│       └── ...
+│
+├── Folders/              <-- Navigation Folder
+│   └── Folders.ini
+│
+├── Programs/             <-- Application Folder
+│   └── Programs.ini
+│
+├── Files/                <-- Document Folder
+│   └── Files.ini
+│
+└── Structure.txt         <-- this file 
