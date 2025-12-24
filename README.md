@@ -8,7 +8,7 @@
 
 ## 📸 Preview
 
-<img width="629" height="599" alt="image" src="https://github.com/user-attachments/assets/3765234a-8b25-4048-836d-327d4779a6d3" />
+<img width="629" height="599" alt="ShelfSuite Preview" src="[https://github.com/user-attachments/assets/3765234a-8b25-4048-836d-327d4779a6d3](https://github.com/user-attachments/assets/3765234a-8b25-4048-836d-327d4779a6d3)" />
 
 ## ✨ Features
 
@@ -30,7 +30,7 @@
 1.  **Requirement:** Ensure you have [Rainmeter](https://www.rainmeter.net/) installed (v4.5 or newer recommended).
 2.  **Download:** Go to the [**Releases**](placeholder_link_to_releases) page on the right.
 3.  **Install:** Download the `.rmskin` file and double-click it. Leave the default settings checked and click "Install".
-4.  **Load:** Open Rainmeter Manage, find the `ZoneDeck` folder, and load `Folders.ini`, `Programs.ini`, and `Files.ini`.
+4.  **Load:** Open Rainmeter Manage, find the `ShelfSuite` folder, and load `Folders.ini`, `Programs.ini`, and `Files.ini`.
 
 ## ⚙️ Configuration
 
@@ -44,26 +44,9 @@ ShelfSuite is designed to be easily customizable without complex coding.
 4.  **To change Links:**
     * Find the `LeftMouseUpAction` line under each meter.
     * Example: change `["chrome.exe"]` to `["firefox.exe"]`.
+
 ```ini
 ; Example of Variables section you can edit
 [Variables]
-MainBackground=25,40,55,210  ; Change background color
+MainBackground=25,40,55,210   ; Change background color
 ActiveTabColor=71,126,199,240 ; Change tab accent color
-
-## 📂 Folder Structure
-
-```text
-ShelfSuite/
-├── @Resources/           # Shared images and scripts
-│   └── Icons/            # Place your PNG icons here
-├── Folders/              # Navigation Module
-│   └── Folders.ini
-├── Programs/             # Apps Launcher Module
-│   └── Programs.ini
-└── Files/                # Documents Module
-    └── Files.ini
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Created by [Martin Santos]
