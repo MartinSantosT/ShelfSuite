@@ -8,7 +8,8 @@
 
 ## 📸 Preview
 
-<img width="629" height="599" alt="ShelfSuite Preview" src="[https://github.com/user-attachments/assets/3765234a-8b25-4048-836d-327d4779a6d3](https://github.com/user-attachments/assets/3765234a-8b25-4048-836d-327d4779a6d3)" />
+<img width="569" height="589" alt="image" src="https://github.com/user-attachments/assets/20bcbd26-4ecd-4d89-8432-030f80198b09" />
+
 
 ## ✨ Features
 
@@ -50,3 +51,25 @@ ShelfSuite is designed to be easily customizable without complex coding.
 [Variables]
 MainBackground=25,40,55,210   ; Change background color
 ActiveTabColor=71,126,199,240 ; Change tab accent color
+
+## 📂 Folder Structure
+ShelfSuite/
+├── @Resources/           # Shared images and scripts
+│   └── Icons/            # Place your PNG icons here
+├── Folders/              # Navigation Module
+│   └── Folders.ini
+├── Programs/             # Apps Launcher Module
+│   └── Programs.ini
+└── Files/                # Documents Module
+    └── Files.ini
+
+🎨 Credits & Assets
+Icons: This suite uses open-source icons (Licensed under Apache 2.0/MIT). No proprietary assets or trademarked logos are included in the distribution package.
+
+Font: Uses Segoe UI (Standard Windows System Font).
+
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Created by Martin Santos
+
