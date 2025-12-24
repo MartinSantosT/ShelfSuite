@@ -45,7 +45,6 @@ ShelfSuite is designed to be easily customizable without complex coding.
     * Find the `LeftMouseUpAction` line under each meter.
     * Example: change `["chrome.exe"]` to `["firefox.exe"]`.
 
-```ini
 ; Example of Variables section you can edit
 [Variables]
 MainBackground=25,40,55,210  ; Change background color
