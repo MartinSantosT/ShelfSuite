@@ -50,3 +50,5 @@ ShelfSuite is designed to be easily customizable without complex coding.
 [Variables]
 MainBackground=25,40,55,210   ; Change background color
 ActiveTabColor=71,126,199,240 ; Change tab accent color
+
+## 📂 Folder Structure
