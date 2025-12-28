@@ -8,7 +8,7 @@
 
 ## 📸 Preview
 
-<img width="629" height="599" alt="ShelfSuite Preview" src="[https://github.com/user-attachments/assets/3765234a-8b25-4048-836d-327d4779a6d3](https://github.com/user-attachments/assets/3765234a-8b25-4048-836d-327d4779a6d3)" />
+<img width="542" height="590" alt="shelfsuit" src="https://github.com/user-attachments/assets/bd9a76ea-7147-40d4-a62b-b54dc0892a1a" />
 
 ## ✨ Features
 
