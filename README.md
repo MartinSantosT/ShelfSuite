@@ -53,7 +53,7 @@ ActiveTabColor=71,126,199,240 ; Change tab accent color
 ```
 
 ## 📂 Folder Structure
-
+```ini
 ShelfSuite/
 ├── @Resources/           # Shared images and scripts
 │   └── Icons/            # Place your PNG icons here
@@ -63,13 +63,14 @@ ShelfSuite/
 │   └── Programs.ini
 └── Files/                # Documents Module
     └── Files.ini
+```
 
-🎨 Credits & Assets
+## 🎨 Credits & Assets
 Icons: This suite uses open-source icons (Licensed under Apache 2.0/MIT). No proprietary assets or trademarked logos are included in the distribution package.
 
 Font: Uses Segoe UI (Standard Windows System Font).
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Created by Martin Santos
