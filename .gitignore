@@ -10,3 +10,6 @@ Shelf Suite v1.0 - BACKUP/
 
 # Internal development docs (not for distribution)
 continuity-package/
+
+# Release packages (distributed via GitHub Releases)
+*.rmskin

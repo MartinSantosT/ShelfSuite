@@ -2,7 +2,7 @@
 
 ![Rainmeter](https://img.shields.io/badge/Rainmeter-4.5%2B-blue?style=for-the-badge&logo=rainmeter)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-2.0-orange?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-2.1-orange?style=for-the-badge)
 
 **Your desktop, organized. No cost, no bloat, no hassle.**
 
