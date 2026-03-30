@@ -10,8 +10,7 @@ ShelfSuite is a free, open-source desktop organizer for Rainmeter. It groups you
 
 ## Preview
 
-<!-- TODO: Replace with v2.0 screenshots -->
-<img width="542" height="590" alt="ShelfSuite" src="https://github.com/user-attachments/assets/bd9a76ea-7147-40d4-a62b-b54dc0892a1a" />
+![ShelfSuite Preview](ShelfSuite.png)
 
 ## Features
 
@@ -28,15 +27,15 @@ ShelfSuite is a free, open-source desktop organizer for Rainmeter. It groups you
 1. Download the `.rmskin` file from the [Releases](https://github.com/MartinSantosT/ShelfSuite/releases) page.
 2. Double-click the file to install. ShelfSuite is installed into your Rainmeter Skins folder automatically.
 3. Open **Rainmeter Manage**, find `Shelf Suite`, and load `Shelf1/Shelf.ini`, `Shelf2/Shelf.ini`, and `Shelf3/Shelf.ini`.
-4. Right-click any shelf on your desktop and select **"Open Configurator"** to start customizing.
+4. Click the gear icon (⚙) on the top-right corner of any shelf to open the configurator to start customizing.
 
 ## Configuration
 
 ShelfSuite offers two ways to configure your shelves:
 
-**Visual Configurator (recommended):** Right-click any shelf on your desktop and select "Open Configurator". From there you can create shelves, add/rename/delete tabs, manage items, and change themes — all from a browser-based UI that saves directly to your Rainmeter files.
+**Visual Configurator (recommended):** Click the gear icon (⚙) on the top-right corner of any shelf to open the configurator. From there you can create shelves, add/rename/delete tabs, manage items, and change themes — all from a browser-based UI that saves directly to your Rainmeter files.
 
-**Manual editing:** Each shelf has a `config.lua` file inside its folder (e.g. `Shelf1/config.lua`). This is a plain Lua table where you define your tabs and items. Copy `config.example.lua` to `config.lua` and edit it with any text editor.
+**Manual editing:** Each shelf folder contains a `config.example.lua` template. Rename it to `config.lua` and edit it with any text editor. This is a plain Lua table where you define your tabs and items.
 
 Example `config.lua`:
 ```lua
@@ -48,14 +47,14 @@ return {
         {
             name = "User",
             items = {
-                { name = "Documents", action = "C:\\Users\\Martin\\Documents", icon = "file" },
-                { name = "Downloads", action = "C:\\Users\\Martin\\Downloads", icon = "download" },
+                { name = "Documents", action = "C:\Users\Martin\Documents", icon = "file" },
+                { name = "Downloads", action = "C:\Users\Martin\Downloads", icon = "download" },
             }
         },
         {
             name = "System",
             items = {
-                { name = "Program Files", action = "C:\\Program Files", icon = "settings" },
+                { name = "Program Files", action = "C:\Program Files", icon = "settings" },
             }
         }
     }
@@ -77,7 +76,13 @@ Switch themes per shelf from the configurator dropdown or via right-click contex
 
 ## Custom Icons
 
-Place any 64x64 PNG (white on transparent background) in `@Resources/Icons/` and use the filename (without extension) as the icon name in your config. ShelfSuite includes 19 generic icons: calculator, calendar, chat, cloud, code, download, file, game, link, mail, music, news, office, photo, settings, storage, terminal, video, web.
+Place any 64x64 PNG (white on transparent background) in `@Resources/Icons/` and reference it by filename (without extension) in the `icon` field of your `config.lua`. For example, if you add `spotify.png` to the Icons folder:
+
+```lua
+{ name = "Spotify", action = "C:\Program Files\Spotify\Spotify.exe", icon = "spotify" }
+```
+
+ShelfSuite includes 19 generic icons: calculator, calendar, chat, cloud, code, download, file, game, link, mail, music, news, office, photo, settings, storage, terminal, video, web.
 
 ## Updating
 
