@@ -1,0 +1,9 @@
+# Personal config files (contain user-specific paths)
+# Users should copy config.example.lua → config.lua and customize
+**/config.lua
+
+# Rainmeter layout files
+*.ini.bak
+
+# Backup v1.0 (local only)
+Shelf Suite v1.0 - BACKUP/
